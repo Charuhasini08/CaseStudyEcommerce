@@ -6,9 +6,9 @@ public class CartEntity {
 	    private int productId;
 	    private int quantity;
 
-	    public Cart() {}
+	    public void Cart() {}
 
-	    public Cart(int cartId, int customerId, int productId, int quantity) {
+	    public void Cart(int cartId, int customerId, int productId, int quantity) {
 	        this.cartId = cartId;
 	        this.customerId = customerId;
 	        this.productId = productId;
